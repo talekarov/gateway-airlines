@@ -1,5 +1,7 @@
 # gateway-airlines
 
+Most code is unfinished and subject to changes.
+
 DONE:
 
 * Data Objects
