@@ -1,5 +1,6 @@
 package com.tkarov.gatewayairlines.model.response;
 
+import com.tkarov.gatewayairlines.persistence.model.VaccinationStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -34,4 +35,5 @@ public class UserResponseBody implements Serializable {
     @NotEmpty
     private String lastName;
 
+    private VaccinationStatus vaccinationStatus;
 }

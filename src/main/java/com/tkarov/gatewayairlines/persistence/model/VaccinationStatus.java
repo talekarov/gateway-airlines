@@ -23,7 +23,7 @@ public class VaccinationStatus implements Serializable {
     private Long id;
 
     @Column(nullable = false)
-    private Boolean vaccinated;
+    private Boolean vaccinated = false;
 
     private String vaccine;
 
